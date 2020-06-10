@@ -11,7 +11,7 @@
     ```
 2. Execute the test script
     ```shell
-    alias php="docker run --rm -it -v $HOME:$HOME -w $(pwd) gcanal/php:amendment-rfc php"
+    alias php="docker run --rm -it -v $HOME:$HOME -w $(pwd) test/php:koolkode-amendments-rfc php"
     php test-php-attribute-amendments.php
     unalias php
     ```
